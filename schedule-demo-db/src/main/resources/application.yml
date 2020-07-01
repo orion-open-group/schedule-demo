@@ -2,7 +2,7 @@ schedule:
   server:
     transport:
       config:
-        serverPort: 9008
+        serverPort: 9006
     register:
       code: db
       dbConfig:
@@ -10,6 +10,7 @@ schedule:
         userName: xEIL5dpjPsItpep2+NTptg==
         password: xEIL5dpjPsItpep2+NTptg==
         driverClassName: com.mysql.cj.jdbc.Driver
+        ttl: 500
     task:
       notifyType: DB
       dataSource:
