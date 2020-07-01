@@ -15,6 +15,7 @@
     <modules>
         <module>schedule-demo-etcd</module>
         <module>schedule-demo-zk</module>
+        <module>schedule-demo-db</module>
     </modules>
 
     <properties>
@@ -58,6 +59,26 @@
             <dependency>
                 <groupId>com.orion.schedule</groupId>
                 <artifactId>schedule-server-starter</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.orion.schedule</groupId>
+                <artifactId>schedule-register-nacos</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.orion.schedule</groupId>
+                <artifactId>schedule-register-etcd</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.orion.schedule</groupId>
+                <artifactId>schedule-register-db</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.orion.schedule</groupId>
+                <artifactId>schedule-register-zookeeper</artifactId>
                 <version>1.0.0</version>
             </dependency>
             <dependency>

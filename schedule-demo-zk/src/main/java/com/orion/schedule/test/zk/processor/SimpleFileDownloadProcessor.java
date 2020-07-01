@@ -29,10 +29,12 @@ public class SimpleFileDownloadProcessor extends DistributedJobProcessor {
             List<Object> processData = Lists.newArrayList();
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", "zhangsan");
+            jsonObject.put("type", getClass().getName());
             jsonObject.put("age", new Random().nextInt(100));
             processData.add(jsonObject);
             jsonObject = new JSONObject();
             jsonObject.put("name", "zhangsan_" + i);
+            jsonObject.put("type", getClass().getName());
             jsonObject.put("age", new Random().nextInt(100));
             processData.add(jsonObject);
             int dispatchCnt = dispatchData(scheduleTaskMsg, processData);
