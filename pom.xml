@@ -16,6 +16,7 @@
         <module>schedule-demo-etcd</module>
         <module>schedule-demo-zk</module>
         <module>schedule-demo-db</module>
+        <module>schedule-demo-eureka</module>
     </modules>
 
     <properties>
