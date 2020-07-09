@@ -5,10 +5,10 @@ schedule:
         serverPort: 9008
     register:
       code: etcd
+      serverList:
+        - http://127.0.0.1:2379
       etcdConfig:
         ttl: 10
-        serverList:
-          - http://127.0.0.1:2379
     task:
       notifyType: DB
       dataSource:

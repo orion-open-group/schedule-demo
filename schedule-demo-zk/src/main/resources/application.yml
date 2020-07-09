@@ -5,9 +5,8 @@ schedule:
         serverPort: 9008
     register:
       code: zk
-      zkConfig:
-        serverList:
-          - 127.0.0.1:2181
+      serverList:
+        - 127.0.0.1:2181
     task:
       notifyType: DB
       dataSource:

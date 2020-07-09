@@ -1,4 +1,4 @@
-package com.orion.schedule.test.db.processor;
+package com.orion.schedule.test.eureka.processor;
 
 
 import com.alibaba.fastjson.JSON;

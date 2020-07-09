@@ -2,15 +2,13 @@ schedule:
   server:
     transport:
       config:
-        serverPort: 9006
+        serverPort: 9008
     register:
-      code: db
-      dbConfig:
-        url: N6q9ztoNQe838nXLWS6T9G0vRZbdidBTmfHyJ2tCBsFIFcboMr+jalsmq/hgTCzA1noUg47DaDuv2u4E7Yw6Drzoc9EUfVkLJCk6HII0F4G5vJq9QY3IZMuICMWienEr1ORS4rN2IMw=
-        userName: xEIL5dpjPsItpep2+NTptg==
-        password: xEIL5dpjPsItpep2+NTptg==
-        driverClassName: com.mysql.cj.jdbc.Driver
-        ttl: 500
+      code: eureka
+      serverList:
+        - http://127.0.0.1:2001/eureka/
+      eurekaConfig:
+        registerSelf: true
     task:
       notifyType: DB
       dataSource:

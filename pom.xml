@@ -79,6 +79,11 @@
             </dependency>
             <dependency>
                 <groupId>com.orion.schedule</groupId>
+                <artifactId>schedule-register-eureka</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.orion.schedule</groupId>
                 <artifactId>schedule-register-zookeeper</artifactId>
                 <version>1.0.0</version>
             </dependency>
