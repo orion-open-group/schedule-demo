@@ -1,4 +1,4 @@
-package com.orion.schedule.test.etcd;
+package com.orion.schedule.test.zk;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
